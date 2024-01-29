@@ -1,4 +1,4 @@
-
+/* Header e logo */
 header{
    background-color: cornflowerblue;
    background-image: url(../img/pattern.png);
@@ -10,11 +10,90 @@ header{
 
 #logo{ 
     width: 200px;
-    padding-left: 200px;
-    padding-top: 40px;
+    margin-left: 300px;
+    margin-top: 40px;
 }
 
-main{
-    padding-left: 200px;
-    padding-right: 200px;
+/* Margini e sottolineature */
+main, aside{
+    margin-left: 300px;
+    margin-right: 300px;
 }
+
+.highlights{
+    background-color: yellow;
+}
+
+ul{
+    padding-left: 10px;
+}
+
+/* Titolo e didascalie */
+h1{
+    margin-bottom: 0;
+    font-size: 30px;
+    
+}
+
+.subtext_a{
+    font-size: 15px;
+    color: grey;
+}
+
+.subtext_b{
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.subtext_c{
+    font-size: 12px;
+}
+
+/* Tabella */
+
+table{
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.small_cell{
+    width: 200px;
+}
+
+th{
+    background-color: rgb(57, 57, 246);
+    color: white;
+}
+
+.colored_row{
+    background-color: aqua;
+}
+
+/* Footer */
+
+.suggestions{
+    color: grey;
+}
+
+.article{
+    color: white;
+}
+
+#a_a{
+    background-image: url(../img/monitor.jpg);
+    height: 150px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+#a_b{
+    background-image: url(../img/graph.jpg);
+    height: 150px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
